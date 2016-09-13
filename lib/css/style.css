@@ -1,0 +1,20 @@
+body {
+    margin-top: 50px;
+}
+
+.none {
+    display: none !important;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-block {
+    margin: 10px;
+}
+
+#mapid {
+    height: 500px;
+    min-width: 800px;}

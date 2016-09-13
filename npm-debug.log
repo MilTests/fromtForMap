@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'run-script',
+1 verbose cli   'http-server' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 verbose run-script [ 'prehttp-server', 'http-server', 'posthttp-server' ]
+5 info lifecycle test2@1.0.0~prehttp-server: test2@1.0.0
+6 silly lifecycle test2@1.0.0~prehttp-server: no script for prehttp-server, continuing
+7 info lifecycle test2@1.0.0~http-server: test2@1.0.0
+8 verbose lifecycle test2@1.0.0~http-server: unsafe-perm in lifecycle true
+9 verbose lifecycle test2@1.0.0~http-server: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/mil/Projects/hh.ru/react/test2/node_modules/.bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle test2@1.0.0~http-server: CWD: /Users/mil/Projects/hh.ru/react/test2
+11 silly lifecycle test2@1.0.0~http-server: Args: [ '-c', 'babel src -d lib && http-server' ]
+12 silly lifecycle test2@1.0.0~http-server: Returned: code: 1  signal: null
+13 info lifecycle test2@1.0.0~http-server: Failed to exec http-server script
+14 verbose stack Error: test2@1.0.0 http-server: `babel src -d lib && http-server`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid test2@1.0.0
+16 verbose cwd /Users/mil/Projects/hh.ru/react/test2
+17 error Darwin 15.6.0
+18 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "run-script" "http-server"
+19 error node v6.5.0
+20 error npm  v3.10.3
+21 error code ELIFECYCLE
+22 error test2@1.0.0 http-server: `babel src -d lib && http-server`
+22 error Exit status 1
+23 error Failed at the test2@1.0.0 http-server script 'babel src -d lib && http-server'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the test2 package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     babel src -d lib && http-server
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs test2
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls test2
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
